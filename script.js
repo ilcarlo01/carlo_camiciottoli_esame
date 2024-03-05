@@ -1,16 +1,12 @@
-window.onload = () => { // quando la finestra è completamente caricata, arrow function
+window.onload = () => { 
     const loading = document.getElementById("loading");
     const content = document.getElementById("content");
 
-    const hideLoading = () => { // arrow function per nascondere il loading
-        loading.style.display = "none"; // nascondi il loading con "none"
-        content.style.opacity = 1; // opacità a 1 per renderlo visibile
-        console.log("Loading completed");
-    };
+    const hideLoading = () => { 
+        loading.style.display = "none"; 
+        content.style.opacity = 1;   };
     setTimeout(hideLoading, 2000);
 };
-
-
 
 
 const menu = document.querySelector('#menu')

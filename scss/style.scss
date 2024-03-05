@@ -4,7 +4,7 @@ $font: 'Montserrat', sans-serif;
 body{
     
     margin: 0px;
-    background: linear-gradient(135deg, rgba(36, 34, 34, 0.999), rgb(19, 42, 63));
+    background: linear-gradient(135deg, rgb(36, 34, 34), rgb(19, 42, 63));
 }
 #loading {
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
@@ -28,7 +28,7 @@ body{
 
 @keyframes fade {
     0% {
-        opacity: 100%;
+        opacity: 1;
         /* opacità all' inizio*/
         transform: scale(0.4);
     }
@@ -37,14 +37,14 @@ body{
 
 }
     50% {
-        opacity: 100%;
+        
         /* opacità a metà animazione*/
     transform: scale(0.4);
     }
 
     100% {
         
-        opacity: 100%;
+        opacity: 1;
         /* opacità alla fine*/
         transform: none;
         
@@ -106,7 +106,6 @@ body{
     box-shadow: 0 8px 32px 0 rgb(0, 239, 92);
     background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255, 255, 255, 0));
     backdrop-filter: blur(15px);
-    -webkit-backdrop-filter: blur(15px);
     border: 1px solid rgba(255, 255, 255, 0.18);
 
 }
@@ -134,15 +133,11 @@ body{
                         width: 85%;
                         color: $white;
                         margin-left: 30px;
-                        height: auto;
-                            
+                        height: auto;}
                     }
-                   
-        }
         
 
-//metodo prof corretto
-
+//capacità
 .meter {
     width: 100px;
     height: 100px;
@@ -161,7 +156,7 @@ body{
     }
 
     .bg {
-        border-color:  rgb(255, 255, 255);;
+        border-color:$white;
     }
 
     .value {
@@ -181,21 +176,7 @@ body{
 
     .value.value-75 {
         border-right-color: transparent;
-    }
-
-    .value.value-100 {}
-}
-
-
-
-
-/*# 
-#projects:hover{
-    border: 1px solid #ff0000; 
-    transition: all 1.5s;
-    z-index: 3;
-}
-#*/
+    }}
 
 //animazione
 .scrolling{
@@ -220,52 +201,18 @@ body{
     }
 }
 
-//DA QUì PARTE IL MAIN
-
-.main{ 
-    display: flex;
-    height: 100vh;
-    width: 100vw;
-    justify-content: space-between;
-    align-items: center ;
-    
-}
 a{
     text-decoration: none;
-    color: $white;
-   
-}
-
+    color: $white;}
 
   .text_form{
-    color: $white;
-  }
-/*RESPONSIVE*/
+    color: $white;}
 
-
-//MOBILE
-@media screen and (max-width:480px) {
-    
-  
-    
-}
-
-
-//TABLET
-
-@media screen and (max-width:768px) {
+  @media screen and (max-width:768px) {
     #maintitle{
-        font-size: 2.5em
+        font-size: 3em;
 
     }
     #toggle{
         transform: scale(0.8);
-    }
-
-
-}
-
-@media screen and (max-width:1024px) {
-
-
-}
+    }}
