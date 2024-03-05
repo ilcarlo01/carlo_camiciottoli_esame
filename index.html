@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio il Carlo </title>
+    
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/hamburger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    
+    
+</head>
+<body>
+
+    <div id="loading">
+        <img src="img/logo.png" alt="loading...">
+    </div>
+    <div class="container-fluid">
+        <div class="row vw-100" style="height: 100px;">
+            <div class="col-2 m-auto d-flex" id="navbar">
+                    <button id="toggle" class="hamburger hamburger--arrow" type="button">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
+                    </button>
+                        <div id="menu" class="text-center">
+                            <ul>
+                                <li><a href="#about">About me</a></li>
+                                <li><a href="#contact">Contact me</a></li>
+                            </ul>
+                        </div>
+                    
+            </div>
+    </div>
+
+    <div class="accordion row d-flex justify-content-center align-items-center vh-100">
+        <div id="about" class="col-8 text-center">
+            <h1 class="fw-semibold" id="maintitle">Hello! <br>
+                 I'm Il carlo</h1>
+        
+        <button  type="button" class="more my-5 btn btn-light">About me</button>
+        <p style="display: none; color: #fbfcfd;" class="more">Ciao mondo!, sono Carlo Camiciottoli nato nella "Superba" Genova nella grande annata del 2001.<br>
+             Mi sono laureato a Ottobre 2023 in Design del prodotto e della Comunicazione</p>
+
+        </div>
+        
+    </div>
+
+    
+    <div class="row d-flex h-auto w-75 m-auto align-items-center justify-content-start" id="glass">
+        
+    
+            <div class="col-12 text-center">
+                <h2 class="fw-bold text-white">Skills</h2>
+            </div>
+            
+                <div class="col-12 col-md-6 justify-content-start align-items-center">
+                    <div class="d-flex justify-content-center align-items-center"><img src="img/il.png" alt="">
+                    <div class="meter d-flex justify-content-center align-items-center mb-2">
+                        <p class="m-0 text-white">75%</p>
+                        <div class="bg">
+                        </div>
+                        <div class="value value-75">
+                        </div>
+                    </div>
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center"><img src="img/ps.png" alt="">
+                        <div class="meter mb-2">
+                            <p class="m-0 text-white">75%</p>
+                            <div class="bg">
+                            </div>
+                            <div class="value value-75">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center"><img src="img/id.png" alt="">
+                        <div class="meter mb-2">
+                            <p class="m-0 text-white">75%</p>
+                            <div class="bg">
+                            </div>
+                            <div class="value value-75">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-12 col-md-6 justify-content-start align-items-center">
+                    <div class="d-flex justify-content-center align-items-center"><img src="img/rh.png" alt="">
+                    <div class="meter mb-2">
+                        <p class="m-0 text-white">50%</p>
+                        <div class="bg">
+                        </div>
+                        <div class="value value-50">
+                        </div>
+                    </div>
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center"><img src="img/pr.png" alt="">
+                        <div class="meter mb-2">
+                            <p class="m-0 text-white">25%</p>
+                            <div class="bg">
+                            </div>
+                            <div class="value value-25">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center"><img src="img/fig.png" alt="">
+                        <div class="meter mb-2">
+                            <p class="m-0 text-white">25%</p>
+                            <div class="bg">
+                            </div>
+                            <div class="value value-25 text-white">
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+    </div>
+
+    <div class="row">
+        <div class="col my-5 overflow-hidden">
+            <div class="scrolling">
+                <div class="message">UX designer</div>
+                <div class="message">-Prototipazione</div>
+                <div class="message">-Interni</div>
+            </div>
+        </div>
+    </div>
+
+    
+        <div class="row d-flex vh-100 text-center align-items-center justify-content-center">
+        <div id="contact" class="col-8 text-start">
+            <h3 class="mb-5 fw-bold" style="font-size: 40px; color: #fbfcfd;"> Contact me</h3>
+            <form>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label text_form fw-light">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text text_form">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label text_form fw-light">Phone Number</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label text_form" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+    </div>
+</div>
+
+
+    
+
+
+  
+
+     
+     
+</div>
+        
+    
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    
+   
+    
+</body>
+</html>
