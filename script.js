@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 const setupReadMore = () => {
     const list = document.querySelectorAll(".accordion")
-    list.forEach(function (accordion, index) {
+    list.forEach(function (accordion) {
         const link = accordion.querySelector('button.more')
         const p = accordion.querySelector('p.more')
         
